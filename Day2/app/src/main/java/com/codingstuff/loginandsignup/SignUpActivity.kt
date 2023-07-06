@@ -25,10 +25,6 @@ class SignUpActivity : AppCompatActivity() {
 
         firebaseAuth = FirebaseAuth.getInstance()
 
-        binding.textView.setOnClickListener {
-            val intent = Intent(this, SignUpActivity::class.java)
-            startActivity(intent)
-        }
         binding.button.setOnClickListener {
             val name = binding.nameEt.text.toString()
             val email = binding.emailEt.text.toString()
