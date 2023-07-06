@@ -1,39 +1,33 @@
-# Dicoding-Submission-Android-Pemula
-Submission - Belajar membuat aplikasi android untuk pemula dicoding
+# Dicoding Submission Android Pemula
+Submission - Belajar membuat aplikasi android untuk pemula dicoding https://www.dicoding.com/academies/51
 
-# Read This
-Project aplikasi ini hanya untuk submission kelas Android Pemula Dicoding, segala bentuk plagiarisme akan otomatis terdeteksi jika menggunakan project aplikasi ini untuk submission. Diharapkan project ini digunakan sebagai referensi belajar dan bukan untuk copy-paste project submission!!!
+## Description
+So recently I've been playing Genshin Impact, a new game from Mihoyo and i have a lot of fun with it. Cause i'm trying to renew my certification for Basic Android Programming, why dont i make some app that contain genshin impact in it? This app is simple, and i'm trying to keep it that way. This app will be able to show local data into Recycler View, and when we click on one of the item we will be able to see more detail of the content.
 
-# Screenshot
-<img src="https://user-images.githubusercontent.com/41522863/89706120-04101380-d98d-11ea-8fd3-338e272affb0.jpg"
-     alt="Splash Screen"
+## Features
+Feature that i add to this program is based on Dicoding Criteria:
+- [x] Create a Main Activity to display Item with a minimum of 10 Different item.
+- [x] When one of the item is click, the app will display a Detail Activity to show more detail of the Item
+- [x] Show image and related Information for the Item in Detail Activity
+- [x] About Activity that contain personal Information about myself such as profile pic, name, and email
+- [x] Added Splash Screen
+- [x] Favorite Button
+- [x] Able to share Item that will direct you to Genshin Impact Official Character page
+
+## Screenshot
+<img src="https://github.com/BillyMRX1/Dicoding-Submission-Android-Pemula/blob/master/Screenshot/Screenshot%201.png"
+     alt="Main Activity"
      style="float: left; margin-right: 10px;"
-     width="200" />
-<img src="https://user-images.githubusercontent.com/41522863/89706121-07a39a80-d98d-11ea-860e-99b3b091a9dc.jpg"
-     alt="Home Screen"
+     width="200" /> <img src="https://github.com/BillyMRX1/Dicoding-Submission-Android-Pemula/blob/master/Screenshot/Screenshot%202.png"
+     alt="Detail Activity"
      style="float: left; margin-right: 10px;"
-     width="200" />
-<img src="https://user-images.githubusercontent.com/41522863/89706126-0a05f480-d98d-11ea-918c-b165c3e6e651.jpg"
-     alt="Detail Screen"
-     style="float: left; margin-right: 10px;"
-     width="200" />
-<img src="https://user-images.githubusercontent.com/41522863/89706127-0c684e80-d98d-11ea-974f-51db7bbe8add.jpg"
-     alt="About Screen"
+     width="200" /> <img src="https://github.com/BillyMRX1/Dicoding-Submission-Android-Pemula/blob/master/Screenshot/Screenshot%203.png"
+     alt="About Activity"
      style="float: left; margin-right: 10px;"
      width="200" />
      
-## Features
-#### Submission Checklists
-- [x] Display splash screen
-- [x] Display images and information in the Format list
-- [x] A detail page appears when an item is clicked
-- [x] Display images and information on the detail page
-- [x] Display page about
+## Closing
+Feel free to clone this repository as an example to help you code! <br>https://github.com/BillyMRX1/Dicoding-Submission-Android-Pemula.git
 
-## Installation
-Clone this repository and import into Android Studio
-```
-https://github.com/apursan/Dicoding-Submission-Android-Pemula.git
-```
-## Author
-* #### Angger Pursan Pratama
+#### Author
+Brilian Ade Putra (BillyMRX1)
