@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val actionbar = supportActionBar
-        actionbar!!.title = "Genshin Impact"
+        actionbar!!.title = "Data Mahasiswa"
 
         rvChar = findViewById(R.id.rv_char)
         rvChar.setHasFixedSize(true)
