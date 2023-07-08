@@ -6,6 +6,13 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 
+import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.mrx.gamestoday.adapter.ListCharAdapter
+import com.mrx.gamestoday.db.CharData
+import com.mrx.gamestoday.model.GenshinChar
+
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
 private const val ARG_PARAM1 = "param1"
@@ -21,6 +28,9 @@ class HomeFragment : Fragment() {
     private var param1: String? = null
     private var param2: String? = null
 
+    private lateinit var rvChar: RecyclerView
+    private var list: ArrayList<GenshinChar> = arrayListOf()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
@@ -35,6 +45,18 @@ class HomeFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_home, container, false)
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        rvChar = view.findViewById(R.id.rv_char)
+        rvChar.setHasFixedSize(true)
+
+        list.addAll(CharData.listData)
+        rvChar.layoutManager = LinearLayoutManager(context)
+        val listCharAdapter = ListCharAdapter(list)
+        rvChar.adapter = listCharAdapter
     }
 
     companion object {
