@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.mrx.gamestoday.adapter.ListCharAdapter
-import com.mrx.gamestoday.db.CharData
+import com.mrx.gamestoday.db.CharData2
 import com.mrx.gamestoday.model.GenshinChar
 
 class ProfileFragment : Fragment() {
@@ -29,7 +29,7 @@ class ProfileFragment : Fragment() {
         rvChar = view.findViewById(R.id.rv_char)
         rvChar.setHasFixedSize(true)
 
-        list.addAll(CharData.listData)
+        list.addAll(CharData2.listData)
         rvChar.layoutManager = LinearLayoutManager(context)
         val listCharAdapter = ListCharAdapter(list)
         rvChar.adapter = listCharAdapter
