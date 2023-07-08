@@ -5,12 +5,7 @@ import android.os.Bundle
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import com.mrx.gamestoday.adapter.ListCharAdapter
 import com.mrx.gamestoday.adapter.SectionsPagerAdapter
-import com.mrx.gamestoday.db.CharData
-import com.mrx.gamestoday.model.GenshinChar
 
 class MainActivity : AppCompatActivity() {
 
