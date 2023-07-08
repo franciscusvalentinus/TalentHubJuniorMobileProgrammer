@@ -2,9 +2,13 @@ package com.mrx.gamestoday
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.viewpager2.widget.ViewPager2
+import com.google.android.material.tabs.TabLayout
+import com.google.android.material.tabs.TabLayoutMediator
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.mrx.gamestoday.adapter.ListCharAdapter
+import com.mrx.gamestoday.adapter.SectionsPagerAdapter
 import com.mrx.gamestoday.db.CharData
 import com.mrx.gamestoday.model.GenshinChar
 
@@ -22,11 +26,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val sectionsPagerAdapter = com.mrx.gamestoday.adapter.SectionsPagerAdapter(this)
-        val viewPager: androidx.viewpager2.widget.ViewPager2 = findViewById(R.id.view_pager)
+        val sectionsPagerAdapter = SectionsPagerAdapter(this)
+        val viewPager: ViewPager2 = findViewById(R.id.view_pager)
         viewPager.adapter = sectionsPagerAdapter
-        val tabs: com.google.android.material.tabs.TabLayout = findViewById(R.id.tabs)
-        com.google.android.material.tabs.TabLayoutMediator(tabs, viewPager) { tab, position ->
+        val tabs: TabLayout = findViewById(R.id.tabs)
+        TabLayoutMediator(tabs, viewPager) { tab, position ->
             tab.text = resources.getString(TAB_TITLES[position])
         }.attach()
         supportActionBar?.elevation = 0f
