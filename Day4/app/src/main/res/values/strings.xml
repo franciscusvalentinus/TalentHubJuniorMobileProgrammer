@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Genshin Char</string>
+    <string name="app_name">Data Mahasiswa</string>
     <string name="about">About</string>
     <string name="dummyvision">Vision: Geo</string>
     <string name="dummyaffil">Affiliation: Knight of Favonius</string>
@@ -10,9 +10,8 @@
     <string name="intro">Intro</string>
     <string name="dummyintro">Albedo — an alchemist based in Mondstadt, in the service of the Knights of Favonius.</string>
 
-    <string name="tab_text_1">Home</string>
-    <string name="tab_text_2">Profile</string>
-    <string name="tab_text_3">Setting</string>
+    <string name="tab_text_1">Mahasiswa Aktif</string>
+    <string name="tab_text_2">Mahasiswa Cuti</string>
     <string name="content_tab_home">Welcome Home</string>
     <string name="content_tab_profile">Change your Profile here</string>
     <string name="content_tab_text">This is Tab %1$d</string>
