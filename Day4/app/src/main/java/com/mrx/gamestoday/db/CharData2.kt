@@ -12,7 +12,7 @@ object CharData2 {
             "",
             "8",
             "",
-            R.drawable.albedo,
+            R.drawable.qiqi,
             R.drawable.albedobg,
             R.drawable.geo,
             "https://genshin.mihoyo.com/en/character/mondstadt?char=15"
@@ -24,7 +24,7 @@ object CharData2 {
             "",
             "8",
             "",
-            R.drawable.childe,
+            R.drawable.mona,
             R.drawable.childebg,
             R.drawable.hydro,
             "https://genshin.mihoyo.com/en/character/liyue?char=8"
@@ -36,7 +36,7 @@ object CharData2 {
             "",
             "8",
             "",
-            R.drawable.diluc,
+            R.drawable.klee,
             R.drawable.dilucbg,
             R.drawable.pyro,
             "https://genshin.mihoyo.com/en/character/mondstadt?char=5"
@@ -48,7 +48,7 @@ object CharData2 {
             "",
             "8",
             "",
-            R.drawable.ganyu,
+            R.drawable.keqing,
             R.drawable.ganyubg,
             R.drawable.cryo,
             "https://genshin.mihoyo.com/en/character/liyue?char=11"
@@ -60,7 +60,7 @@ object CharData2 {
             "",
             "8",
             "",
-            R.drawable.hutao,
+            R.drawable.jean,
             R.drawable.hutaobg,
             R.drawable.pyro,
             "https://genshin.mihoyo.com/en/character/liyue?char=12"
@@ -72,7 +72,7 @@ object CharData2 {
             "",
             "8",
             "",
-            R.drawable.jean,
+            R.drawable.hutao,
             R.drawable.jeanbg,
             R.drawable.anemo,
             "https://genshin.mihoyo.com/en/character/mondstadt?char=0"
@@ -84,7 +84,7 @@ object CharData2 {
             "",
             "8",
             "",
-            R.drawable.keqing,
+            R.drawable.ganyu,
             R.drawable.keqingbg,
             R.drawable.electro,
             "https://genshin.mihoyo.com/en/character/liyue?char=7"
@@ -96,7 +96,7 @@ object CharData2 {
             "",
             "8",
             "",
-            R.drawable.klee,
+            R.drawable.diluc,
             R.drawable.kleebg,
             R.drawable.pyro,
             "https://genshin.mihoyo.com/en/character/mondstadt?char=8"
@@ -108,7 +108,7 @@ object CharData2 {
             "",
             "8",
             "",
-            R.drawable.mona,
+            R.drawable.childe,
             R.drawable.monabg,
             R.drawable.hydro,
             "https://genshin.mihoyo.com/en/character/mondstadt?char=13"
@@ -120,7 +120,7 @@ object CharData2 {
             "",
             "8",
             "",
-            R.drawable.qiqi,
+            R.drawable.albedo,
             R.drawable.qiqibg,
             R.drawable.cryo,
             "https://genshin.mihoyo.com/en/character/liyue?char=6"
