@@ -6,8 +6,8 @@ import com.mrx.gamestoday.model.GenshinChar
 object CharData2 {
     private val database = arrayOf(
         arrayOf(
-            "Franciscus",
-            "franciscus@gmail.com",
+            "Marshall",
+            "marshall@gmail.com",
             "Jurusan : Informatika",
             "",
             "8",
@@ -18,11 +18,11 @@ object CharData2 {
             "https://genshin.mihoyo.com/en/character/mondstadt?char=15"
         ),
         arrayOf(
-            "Vincent",
-            "vincent@gmail.com",
+            "Ardian",
+            "ardian@gmail.com",
             "Jurusan : Manajemen Bisnis",
             "",
-            "10",
+            "8",
             "",
             R.drawable.childe,
             R.drawable.childebg,
@@ -30,11 +30,11 @@ object CharData2 {
             "https://genshin.mihoyo.com/en/character/liyue?char=8"
         ),
         arrayOf(
-            "Sahlan",
-            "sahlan@gmail.com",
+            "Nicky",
+            "nicky@gmail.com",
             "Jurusan : Manajemen Bisnis",
             "",
-            "10",
+            "8",
             "",
             R.drawable.diluc,
             R.drawable.dilucbg,
@@ -42,8 +42,8 @@ object CharData2 {
             "https://genshin.mihoyo.com/en/character/mondstadt?char=5"
         ),
         arrayOf(
-            "Farrel",
-            "farrel@gmail.com",
+            "Michelle",
+            "michelle@gmail.com",
             "Jurusan : Desain Komunikasi Visual",
             "",
             "8",
@@ -54,11 +54,11 @@ object CharData2 {
             "https://genshin.mihoyo.com/en/character/liyue?char=11"
         ),
         arrayOf(
-            "Bagus",
-            "bagus@gmail.com",
+            "Tinara",
+            "tinara@gmail.com",
             "Jurusan : Desain Komunikasi Visual",
             "",
-            "10",
+            "8",
             "",
             R.drawable.hutao,
             R.drawable.hutaobg,
@@ -66,8 +66,8 @@ object CharData2 {
             "https://genshin.mihoyo.com/en/character/liyue?char=12"
         ),
         arrayOf(
-            "Alfredo",
-            "alfredo@gmail.com",
+            "Clarence",
+            "clarence@gmail.com",
             "Jurusan : Arsitektur",
             "",
             "8",
@@ -78,11 +78,11 @@ object CharData2 {
             "https://genshin.mihoyo.com/en/character/mondstadt?char=0"
         ),
         arrayOf(
-            "Firman",
-            "firman@gmail.com",
+            "Charisel",
+            "charisel@gmail.com",
             "Jurusan : Arsitektur",
             "",
-            "10",
+            "8",
             "",
             R.drawable.keqing,
             R.drawable.keqingbg,
@@ -90,11 +90,11 @@ object CharData2 {
             "https://genshin.mihoyo.com/en/character/liyue?char=7"
         ),
         arrayOf(
-            "Alfindi",
-            "alfindi@gmail.com",
+            "Ray",
+            "ray@gmail.com",
             "Jurusan : Informatika",
             "",
-            "10",
+            "8",
             "",
             R.drawable.klee,
             R.drawable.kleebg,
@@ -102,8 +102,8 @@ object CharData2 {
             "https://genshin.mihoyo.com/en/character/mondstadt?char=8"
         ),
         arrayOf(
-            "Bryant",
-            "bryant@gmail.com",
+            "Hans",
+            "hans@gmail.com",
             "Jurusan : Desain Komunikasi Visual",
             "",
             "8",
@@ -114,8 +114,8 @@ object CharData2 {
             "https://genshin.mihoyo.com/en/character/mondstadt?char=13"
         ),
         arrayOf(
-            "Javier",
-            "javier@gmail.com",
+            "Reiner",
+            "reiner@gmail.com",
             "Jurusan : Arsitektur",
             "",
             "8",
