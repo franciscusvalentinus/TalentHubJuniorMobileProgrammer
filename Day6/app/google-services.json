@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "503220274781",
+    "firebase_url": "https://talenthub-1a885-default-rtdb.firebaseio.com",
+    "project_id": "talenthub-1a885",
+    "storage_bucket": "talenthub-1a885.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503220274781:android:180dff5a3c63ce7062afb4",
+        "android_client_info": {
+          "package_name": "com.example.asifkhan.bookgalleryfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "503220274781-q1quc3rup3052bpoqu2bvc2t34boosqp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbL7dyD7gt5-5-jXwnYtpvcfv7bzzITts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "503220274781-q1quc3rup3052bpoqu2bvc2t34boosqp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
